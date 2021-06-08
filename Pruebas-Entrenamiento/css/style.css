@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.izquierda {
+    background: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 50%;
+}
+
+.derecha {
+    background: rgb(241, 239, 220);
+    width: 50%;
+    height: 80vh;
+}
+
+#Division {
+    display: flex;
+}
+
+.izquierda .top {
+    width: 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    background-color: red;
+    color: #fff;
+    transform: translateX(50px) translateY(23px);
+    text-transform: uppercase;
+}
+
+.izquierda .vertical {
+    transform: translateX(40px) translateY(-40px);
+    border-left: 1px solid red;
+    height: 10%;
+    left: 50%;
+    margin-left: 3px;
+    top: 2px;
+}
+
+.izquierda .img-white {
+    width: 70%;
+    transform: translateX(30px) translateY(60px);
+}
+
+.izquierda .center {
+    font-size: 20px;
+    width: 30%;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.izquierda .p1 {
+    font-size: 20px;
+    width: 30%;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    transform: translateY(-35px);
+}
+
+.izquierda .n-pag {
+    background-color: red;
+    color: #fff;
+    width: 3%;
+    font-size: 15px;
+    text-align: right;
+    margin-left: 95%;
+    margin-top: 7%;
+}
+
+.izquierda .buttom {
+    width: 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    background-color: red;
+    color: #fff;
+    transform: rotate(270deg);
+    margin-left: 91%;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+.derecha .vertical-d {
+    border-left: 1px solid black;
+    height: 10%;
+    margin-left: 50px;
+    margin-top: -17px;
+}
+
+.derecha .top {
+    font-size: 8px;
+    color: #000;
+    margin-left: 58px;
+    margin-top: -12px;
+    text-transform: uppercase;
+}
+
+.derecha .txt-1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 9px;
+    width: 28%;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.derecha img {
+    margin-left: 40px;
+}
+
+#columnas {
+    color: rgb(99, 99, 99);
+    padding: 3rem;
+    font-size: 9.5px;
+    text-align: justify;
+    margin-top: -50px;
+    column-count: 4;
+    column-gap: 30px;
+}
+
+#columnas .txt-red {
+    color: rgb(255, 0, 0);
+}
+
+#columnas .txt-red1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: rgb(255, 0, 0);
+}
+
+#columnas .txt-black {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+.derecha hr {
+    height: 2px;
+    background-color: red;
+    width: 30px;
+    margin-left: 650px;
+    margin-top: -200px;
+}
+
+.derecha .n-pag {
+    color: #000;
+    width: 3%;
+    font-size: 15px;
+    text-align: right;
+    margin-left: 95%;
+    margin-top: 7%;
+}
+
+.derecha .buttom {
+    width: 17%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    color: #000;
+    transform: rotate(270deg);
+    margin-left: 89%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+}
+
+.derecha .vertical {
+    border-left: 1px solid rgba(0, 0, 0, 0.096);
+    height: 105%;
+    margin-left: 50%;
+    margin-top: -75%;
+}
